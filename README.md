@@ -15,6 +15,6 @@ https://github.com/kotalilyy/run-buddy/issues/1#issue-798810926
 
 Contribution: 
 
-Made by ❤️ Dakota Nelson ❤️
+Made with love by ❤️ Dakota Nelson ❤️
  
 @ 2019 Run Buddy Inc
