@@ -1,19 +1,20 @@
 Run Buddy, Inc
 
-Purpose
+Purpose: 
 A website offering fitness training services
 
-Built With
-*HTML
-*CSS
+Built With:
+1.HTML
+2.CSS
 
-Website
+Website: 
 https://kotalilyy.github.io/run-buddy/
 
-Screenshot 
+Screenshot:  
+https://github.com/kotalilyy/run-buddy/issues/1#issue-798810926
 
-Contribution 
+Contribution: 
 
-Made with ❤️ by  Dakota Nelson
+Made by ❤️ Dakota Nelson ❤️
  
 @ 2019 Run Buddy Inc
