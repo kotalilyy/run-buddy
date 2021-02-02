@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
      <link rel="stylesheet" href="./assets/css/style.css" />
      <meta charset="UTF-8" />
      <title>
       Run Buddy
-    </title>
-  </head>
-   <body>
+     </title>
+     </head>
+     <body>
     <!-- navigation -->
     <header>
         <h1>
               <a href="./index.html">RUN BUDDY</a>
         </h1>
-          <nav>
+        <nav>
           <!--unordered list element-->
-          <ul>
+        <ul>
           <!--list item element-->
-          <li>
+        <li>
           <!--anchor element-->
                <a href="#what-we-do">What We Do</a>
-          </li>
+        </li>
 
-          <li>
-                <a href="#what-you-do">What You Do</a>
-          </li>
-           <li>
-                <a href="#your-trainers">Your Trainers</a>
+        <li>
+               <a href="#what-you-do">What You Do</a>
+        </li>
+        <li>
+               <a href="#your-trainers">Your Trainers</a>
            </li>
-            <li>
+           <li>
                <a href="#reach-out">Reach Out</a>
-          </li>
-          </ul>
-         </nav>
-        </header>
+           </li>
+           </ul>
+          </nav>
+         </header>
 
  <!--hero jumbotron-->
-  <section class="hero">
+   <section class="hero">
     <div class="flex-row">
     <div class="hero-cta">
       <h2>Start Building Habits.</h2>
       <p>
         seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
       </p>
-    </div>
+     </div>
 
-   <div class="hero-form">
+    <div class="hero-form">
     <h3>Get Started Today</h3>
-     <p>
+    <p>
       Fill out this form and one of our trainers will schedule a consult
-      </p>
+    </p>
      <!--add form label-->
-     <form>
+    <form>
               <label for="name">Enter full name:</label>
               <input type="name" placeholder="Your Name" name="name" id="name" class="form-input"> 
               <label for="email">Enter email address:</label>
@@ -59,7 +59,7 @@
               <label for="phone">Enter a telephone number:</label>
               <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
  
- <p>
+  <p>
     Have you worked out with a trainer before?
               <input type="radio" name="trainer-confirm" id="trainer-yes" />
               <label for="trainer-yes">Yes</label>
@@ -157,61 +157,67 @@
    </section>
   
    <!-- "meet the trainers" section -->
-   <section id="your-trainers" class="trainers">
+   <section id="your-trainers">
+   <div class="flex-row">
    <h2 class="section-title primary-border">
       Meet The Trainers
-    </h2>
-    <article class="trainer">
-        <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-    <div class="trainer-bio text-left">
-    <h3>Arron Stephens</h3>
-    <h4>Speed / Strength</h4>
-        <p>
+   </h2>
+   </div>
+
+   <div class="trainers">
+    <article class="trainers">
+    <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+    <div class="trainer-bio">
+    <h3 class="trainer-name">Arron Stephens</h3>
+    <h4 class="trainer-role">Speed / Strength</h4>
+    <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
           itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-        </p>
+    </p>
     </div>
     </article>
-    </section>
+   
   <!-- second trainer bio -->
 
 <article class="trainer">
-  <div class="trainer-bio text-right">
-  <h3>Joanna Gill</h3>
-  <h4>Endurance</h4>
+<img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+<div class="trainer-bio">
+<h3 class="trainer-name">Joanna Gill</h3>
+<h4 class="trainer-role">Endurance</h4>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
       itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
     </p>
-  </div>
-          <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
-  </article>
+</div>
+</article>
 
   <!-- third trainer bio -->
   <article class="trainer">
   <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-  <div class="trainer-bio text-left">
-    <h3>Harry "the Headband" Smith</h3>
-    <h4>Strength</h4>
+  <div class="trainer-bio">
+  <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+  <h4 class="trainer-role">Strength</h4>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
       itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
     </p>
    </div>
    </article>
+   </div>
+   </section>
 
   <!-- "reach out" section -->
   <section id="reach-out" class="contact">
-    <div class="flex-row">
+  <div class="flex-row">
   <h2 class="section-title secondary-border">
       Reach Out
   </h2>
-</div>
+  </div>
 
   <div class="contact-info"></div>
    
 
-  <div class="contact-form">
+    <div class="contact-form">
     <h3>Contact Us</h3>
     <form>
        <label for="contact-name">Your Name</label>
@@ -222,7 +228,7 @@
   
        <button type="submit">Submit</button>
       </form>
-  </div>
+      </div>
     
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.546040876877!2d-120.43435744952713!3d37.87091107964269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090db7cda478e35%3A0xe12336ef8ade41b1!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1612184146234!5m2!1sen!2sus">
