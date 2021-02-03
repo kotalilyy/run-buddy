@@ -26,9 +26,6 @@ header h1 {
 }
 
 header a {
-  color: #fce138;
-}
-header a {
   text-decoration: none;
   color: #fce138;
 }
@@ -42,7 +39,7 @@ header nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  list style: none;
+  list-style: none;
 }
 
 header nav ul li a {
@@ -53,11 +50,11 @@ header nav ul li a {
 
 footer {
   background: #fce138;
-  width: 100%;
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -90,56 +87,6 @@ section {
   flex-wrap: wrap;
 }
 
-.hero-form {
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px;
-  color: #024e76;
-}
-
-.hero-form {
-  
-  border-style: solid;
-  border-width: 3px;
-  border-color: #024e76;
-}
-
-.hero-form {
-  border: 3px solid #024e76;
-  background-color: #fce138;
-  padding: 20px;
-  color: #024e76;
-  width: 40%;
-  margin: 3.5%;
-}
-
-.hero-form h3{
-  font-size: 24px;
-  margin: 0;
- }
-
- .hero-form p {
-  margin: 5px 0 15px 0;
-}
-
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.hero-form button {
-  color: #fce138;
-  background-color: #024e76;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-}
-
 .hero-cta {
   width: 35%;
   text-align: right;
@@ -153,29 +100,57 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
+  }
+
+  .hero-form h3{
+    font-size: 24px;
+    margin: 0;
+   }
+  
+   .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
 }
+
+.hero-form label{
+margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+
 
 /* HERO STYLES END */
 
-
-.intro p {
-  line-height: 1.7;
-  color: #39a6b2;
-  width: 80%;
-  font-size: 20px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.steps { 
-  background: #fce138;
-}
-
-
 .section-title {
   font-size: 55px;
-  color: #024e76;
   border-bottom: 3px solid;
+  color: #024e76;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -190,38 +165,44 @@ section {
   border-color: #39a6b2;
 }
 
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-}
- 
-.step-text h4 {
-font-size: 26px;
-line-height: 1.5;
-color: #024e76;
-display: flex; 
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between; 
+.steps { 
+  background: #fce138;
 }
 
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2
-
+  border-bottom: 1px solid #39a6b2;
+display: flex; 
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
 }
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
+}
+
 .step-info {
-flex: 2 70%
-}
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  }
 
+ 
 .step img {
   flex: 1 12%;
   margin-right: 20px;
@@ -229,6 +210,19 @@ flex: 2 70%
 
 .step img img {
   max-width: 100%;
+}
+
+.step-text {
+  flex: 12;
+}
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+.step-text h4 {
+font-size: 26px;
+line-height: 1.5;
+color: #024e76; 
 }
 
 /*trainers section*/
@@ -242,9 +236,9 @@ flex: 2 70%
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -278,6 +272,17 @@ flex: 2 70%
 .contact h2 {
   color: #fce138;
 }
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
 .contact-info iframe {
   height: 400px;
 }
@@ -296,21 +301,6 @@ flex: 2 70%
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
-}
-
-.contact-info a {
-  color: #fce138;
-}
-
-.contact-info{
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
-
-.contact-info > * {
-  flex: 1;
-  margin: 15px;
 }
 
 .contact-form input, .contact-form-textarea {
@@ -334,8 +324,18 @@ flex-wrap: wrap;
   font-size: 16px;
 } 
 
-
+.contact-info a {
+  color: #fce138;
+}
 /* REACH OUT STYLES END */
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
 .flex-row {
   display: flex;
 }
