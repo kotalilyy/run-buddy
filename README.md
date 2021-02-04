@@ -11,7 +11,8 @@ Website:
 https://kotalilyy.github.io/run-buddy/
 
 Screenshot:  
-https://github.com/kotalilyy/run-buddy/issues/1#issue-798810926
+![image](https://user-images.githubusercontent.com/77229281/106921201-672afa80-66d1-11eb-9ba3-b2275635661e.png)
+
 
 Contribution: 
 
