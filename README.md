@@ -10,9 +10,6 @@ Built With:
 Website: 
 https://kotalilyy.github.io/run-buddy/
 
-Screenshot:  
-![image](https://user-images.githubusercontent.com/77229281/106921201-672afa80-66d1-11eb-9ba3-b2275635661e.png)
-
 
 Contribution: 
 
