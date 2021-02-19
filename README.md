@@ -4,8 +4,9 @@
 A website offering fitness training services
 
 # Built With:
-1.HTML
-2.CSS
+
+* HTML
+* CSS
 
 # Website: 
 https://kotalilyy.github.io/run-buddy/
