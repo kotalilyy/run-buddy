@@ -1,18 +1,18 @@
-# Run Buddy, Inc.
+# run-buddy
 
-# Purpose: 
-A website offering fitness training services
+## Description 
 
-# Built With:
+A website that offers fitness training services. This is my first website created in the Full-stack Coding Bootcamp at The University of Texas at Austin.
+
+## Technologies Used
 
 * HTML
 * CSS
 
-# Website: 
-https://kotalilyy.github.io/run-buddy/
+## Live Link
 
-# Contribution: 
+[live link](https://kotalilyy.github.io/run-buddy/)
 
-Made with love by ❤️ Dakota Nelson ❤️
- 
-@ 2019 Run Buddy Inc
+## Contributions
+
+Created with ❤️ by [Dakota Nelson](https://github.com/kotalilyy)
